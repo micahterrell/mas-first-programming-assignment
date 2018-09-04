@@ -41,6 +41,11 @@ public class Login extends AppCompatActivity {
     }
 
     private void signIn(final View v, String email, String password) {
+        if(email.length() == 0) {
+            Intent intent = new Intent(v.getContext(), UserMain.class);
+            startActivity(intent);
+            return;
+        }
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                     @Override
