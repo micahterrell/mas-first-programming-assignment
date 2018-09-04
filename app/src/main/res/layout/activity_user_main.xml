@@ -6,14 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".UserMain">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/weatherButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="151dp"
-        android:layout_marginStart="151dp"
-        android:layout_marginTop="253dp"
-        android:text="MAIN"
+        android:layout_marginLeft="137dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="103dp"
+        android:text="Weather"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/notesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Notes"
+        app:layout_constraintStart_toStartOf="@+id/weatherButton"
+        app:layout_constraintTop_toBottomOf="@+id/weatherButton" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="@+id/notesButton"
+        app:layout_constraintTop_toBottomOf="@+id/notesButton" />
 </android.support.constraint.ConstraintLayout>
