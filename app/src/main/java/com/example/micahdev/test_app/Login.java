@@ -52,7 +52,7 @@ public class Login extends AppCompatActivity {
 
                             Log.d("LOGIN", "Login Successful");
 
-                            Intent intent = new Intent(v.getContext(), MainActivity.class);
+                            Intent intent = new Intent(v.getContext(), UserMain.class);
                             startActivity(intent);
                             //updateUI(user);
 

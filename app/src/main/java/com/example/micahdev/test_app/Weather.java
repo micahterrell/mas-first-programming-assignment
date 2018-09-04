@@ -15,6 +15,7 @@ public class Weather extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d("WEATHER", "Hello");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
 
