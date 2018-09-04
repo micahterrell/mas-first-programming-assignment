@@ -27,11 +27,11 @@
         app:layout_constraintTop_toBottomOf="@+id/weatherButton" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/randomButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
-        android:text="Button"
+        android:text="Random"
         app:layout_constraintStart_toStartOf="@+id/notesButton"
         app:layout_constraintTop_toBottomOf="@+id/notesButton" />
 </android.support.constraint.ConstraintLayout>
